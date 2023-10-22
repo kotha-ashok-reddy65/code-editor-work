@@ -1,0 +1,23 @@
+.code-editor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.code-editor.locked {
+  background-color: #f2f2f2;
+  pointer-events: none;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+}
